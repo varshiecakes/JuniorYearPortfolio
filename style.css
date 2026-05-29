@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff0f5;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #ff69b4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.navbar-left h2 {
+    color: white;
+}
+
+.navbar-right {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-right li {
+    margin-left: 20px;
+}
+
+.navbar-right a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-right a:hover {
+    color: pink;
+}
+
+/* MAIN CONTENT */
+
+.home-card {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* CARDS */
+
+.resource-card {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+/* BIO */
+
+.bio {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.bio-pic img {
+    width: 250px;
+    border-radius: 15px;
+}
+
+.bio-text h1 {
+    color: #ff1493;
+}
+
+/* TREATS */
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    background-color: #fff5f8;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* GALLERY */
+
+.gallery {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 220px;
+    border-radius: 10px;
+}
+
+/* CONTACT */
+
+#contact {
+    text-align: center;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
